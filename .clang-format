@@ -1,0 +1,34 @@
+# SPDX-FileCopyrightText: 2024 J0R0U <https://github.com/J0R0U>
+# SPDX-License-Identifier: MIT
+
+---
+BasedOnStyle: LLVM
+AccessModifierOffset: '-2'
+AlignAfterOpenBracket: Align
+AlignConsecutiveMacros: 'true'
+AlignConsecutiveAssignments: 'true'
+AlignConsecutiveDeclarations: 'true'
+AllowShortBlocksOnASingleLine: 'false'
+AllowShortIfStatementsOnASingleLine: Never
+BreakBeforeConceptDeclarations: 'true'
+BreakBeforeBraces: Custom
+BreakConstructorInitializers: BeforeColon
+ColumnLimit: '0'
+ConstructorInitializerAllOnOneLineOrOnePerLine: 'false'
+IndentPPDirectives: AfterHash
+IndentWidth: '4'
+KeepEmptyLinesAtTheStartOfBlocks: 'false'
+Language: Cpp
+MaxEmptyLinesToKeep: '1'
+NamespaceIndentation: None
+SortIncludes: 'true'
+SpaceAfterCStyleCast: 'true'
+SpaceAfterTemplateKeyword: 'true'
+SpaceBeforeAssignmentOperators: 'true'
+SpaceBeforeCtorInitializerColon: 'true'
+Standard: Cpp11
+UseTab: Never
+BraceWrapping:
+    SplitEmptyFunction: true
+    AfterFunction: true
+...
